@@ -1,9 +1,20 @@
 {
-  "name": "web-arch-core",
-  "version": "0.0.0",
-  "description": "web-arch-core",
-  "main": "app.js",
+  "name": "web-arch-lib",
+  "version": "0.0.1",
+  "description": "web-arch-lib",
+  "main": "src/application.mjs",
+  "license": "MIT",
+  "homepage": "https://github.com/webapp-architecture/web-arch-core",
   "author": {
-    "name": "l.pongracz"
+    "name": "pongracz-lajos",
+    "url": "https://github.com/pongracz-lajos"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webapp-architecture/web-arch-core.git"
+  },
+  "dependencies": {
+    "web-arch-data": "0.0.1",
+    "web-arch-lifecycle": "0.0.1"
   }
 }
